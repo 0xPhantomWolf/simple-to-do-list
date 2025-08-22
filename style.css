@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#taskList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#taskList li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
